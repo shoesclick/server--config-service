@@ -12,7 +12,8 @@ spring:
       server:
         git:
           default-label:
-
+          searchPaths:
+            - '*/**'
           uri: https://github.com/shoesclick/config--shoesclick-server.git
           username: claytonmorais@gmail.com
           password: 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
