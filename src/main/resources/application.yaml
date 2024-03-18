@@ -11,7 +11,6 @@ spring:
     config:
       server:
         git:
-          default-label:
           searchPaths:
             - '{application}'
           uri: https://github.com/shoesclick/config--shoesclick-server.git
@@ -33,7 +32,7 @@ info:
 
 management:
   server:
-    port: 9091
+    port: 9090
   endpoints:
     web:
       base-path: /actuator
