@@ -4,7 +4,7 @@ metadata:
   name: svc-server--config-service
   namespace: shoes-eks
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
       app: server--config-service
   ports:
