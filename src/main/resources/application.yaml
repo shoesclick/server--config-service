@@ -33,7 +33,7 @@ info:
 
 management:
   server:
-    port: 9090
+    port: 9190
   endpoints:
     web:
       base-path: /actuator
