@@ -49,9 +49,3 @@ management:
         group:
           readiness:
             include: diskSpace
-
-opentracing:
-  service-name: server--config-service
-  jaeger:
-    http-sender:
-      url: ${JAEGER_HOST:http://jaeger-collector.monitoracao.svc.cluster.local:14268/api/traces}
